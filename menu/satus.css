@@ -1186,7 +1186,6 @@ As our Syntax markup isnt read for <textarea>, is it?
 	border-radius: 6px;
 	outline: none;
 	background: transparent;
-
 	appearance: none;
 	align-items: center;
 }
@@ -1316,10 +1315,9 @@ As our Syntax markup isnt read for <textarea>, is it?
     justify-content: space-between;
 }
 
+/*edited this section*/
 .satus-slider__input[type='text'] {
     appearance: none;
-    background: transparent;
-    border: none;
     color: inherit;
     font: inherit;
     padding: 0;
@@ -1327,6 +1325,9 @@ As our Syntax markup isnt read for <textarea>, is it?
     outline: none;
     width: 64px;
     text-align: right;
+	border: 2px gray solid;
+	border-radius: 5px;
+	background-color: #cacccf;
 }
 
 .satus-slider__track-container {
